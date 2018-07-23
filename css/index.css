@@ -2,7 +2,7 @@
 * @Author: Sing-V
 * @Date:   2018-05-20 07:53:35
 * @Last Modified by:   Sing-V
-* @Last Modified time: 2018-07-23 00:35:45
+* @Last Modified time: 2018-07-23 23:15:22
 */
 *{
 	margin: 0;
@@ -398,6 +398,7 @@ body{
 	right: 5px;
 	top: 4px;
 	opacity: 0.8;
+	cursor: pointer;
 	background-color: white;
 }
 .bigBox .banner .warper .box2{
@@ -407,20 +408,21 @@ body{
 	right: 5px;
 	top: 221px;
 	opacity: 0.8;
+	cursor: pointer;
 	background-color: white;
 }
-.bigBox .banner .warper .box1 a , .bigBox .banner .warper .box2 a{
+.bigBox .banner .warper .box1 .con-nei , .bigBox .banner .warper .box2 .con-nei{
 	display: block;
 	width: 150px;
 	height: 213px;
 	color: black;
 }
-.bigBox .banner .warper .box1 a .name , .bigBox .banner .warper .box2 a .name{
+.bigBox .banner .warper .box1 .con-nei .name , .bigBox .banner .warper .box2 .con-nei .name{
 	margin-top: 20px;
 	margin-left: 16px;
 	font-size: 14px;
 }
-.bigBox .banner .warper .box1 a .des , .bigBox .banner .warper .box2 a .des{
+.bigBox .banner .warper .box1 .con-nei .des , .bigBox .banner .warper .box2 .con-nei .des{
 	margin-left: 16px;
 	font-size: 12px;
 	color: #666;
